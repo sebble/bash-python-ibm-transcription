@@ -16,4 +16,4 @@ Transcribe a new audio file:
 
 Preview the transcription:
 
-    cat sample.wav*.json|jq '.results[].alternatives[0].transcript'>sample.wav.txt
+    ./markdown.sh sample.wav > sample.wav.md
