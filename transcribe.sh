@@ -19,7 +19,7 @@ for SPLIT in $(./splits.py $DURATION $LENGTH $OVERLAP); do
     test -f $PARTFILE && {
         echo "$PARTFILE already exists. Skipping conversion."
     } || {
-        avconv -i $FILENAME -ss $START -t $LENGTH $PARTFILE
+        avconv -loglevel error -i $FILENAME -ss $START -t $LENGTH $PARTFILE
     }
     (
         echo "Transcribing $PARTFILE..."
