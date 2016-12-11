@@ -2,3 +2,5 @@
 *.wav
 *.json
 output.txt
+tasks
+*.txt
