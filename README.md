@@ -17,7 +17,7 @@ or
 
 Transcribe a new audio file:
 
-    ./transcribe sample.wav
+    ./transcribe.sh sample.wav
 
 Preview the transcription:
 
