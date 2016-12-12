@@ -11,11 +11,13 @@
 
 Set environment variables for speech-to-text service:
 
-    $ vi .env
-    IBM_USERNAME="asdfghjkl-asdfghjkl"
-    IBM_PASSWORD="12345678"
-    
-    $ eval $(cat .env|grep -v ^#|sed 's/^/export /')
+```
+$ vi .env
+IBM_USERNAME="asdfghjkl-asdfghjkl"
+IBM_PASSWORD="12345678"
+
+$ eval $(cat .env|grep -v ^#|sed 's/^/export /')
+```
 
 or
 
